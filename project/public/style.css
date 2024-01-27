@@ -57,3 +57,122 @@ body{
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
 }
+
+.library{
+    background-color: #121212;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library-button{
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.library .library-button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-left: 8px;
+}
+
+.library .library-content .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 20px;
+}
+
+.section-playlist .section-playlist-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist-content .text{
+    padding-bottom: 14px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist-content .title{
+    font-weight: 700;
+}
+
+.section-playlist-content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist-content .section-playlist-button{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.languages .languages-button{
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+}
