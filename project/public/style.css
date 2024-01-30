@@ -5,7 +5,7 @@
 
 body{
     background-color: #000;
-   
+   font-family: var(--font-dm-sans);
 }
 
 .logo img{
@@ -54,7 +54,6 @@ body{
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
-    font-family: "DM Sans", sans-serif;
     font-size: 14px;
 }
 
@@ -82,7 +81,6 @@ body{
     border: none;
     color: #b3b3b3;
     font-size: 1rem;
-    font-family: "DM Sans", sans-serif;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -112,6 +110,7 @@ body{
     font-size: 1rem;
     font-weight: 600;
     padding: 16px 20px;
+    border-radius: 10px;
 }
 
 .section-playlist .section-playlist-content{
@@ -122,7 +121,6 @@ body{
 .section-playlist-content .text{
     padding-bottom: 14px;
     color: white;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist-content .title{
@@ -142,7 +140,6 @@ body{
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     padding: 10px;
     border: none;
@@ -175,4 +172,5 @@ body{
     width: 170px;
     margin: 8px;
     padding: 8px;
+    border-radius: 20px;
 }
