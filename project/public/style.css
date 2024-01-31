@@ -6,6 +6,7 @@
 body{
     background-color: #000;
    font-family: var(--font-dm-sans);
+   overflow: hidden;
 }
 
 .logo img{
